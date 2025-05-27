@@ -31,6 +31,22 @@ h1 {
     gap: 1.5rem;
 }
 
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.hero {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.planes table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    border: 0.1vw solid #9dbdb8;
+}
+
 .header, .footer {
     text-align: center;
     padding: 1rem;
