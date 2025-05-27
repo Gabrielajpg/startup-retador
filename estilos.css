@@ -44,7 +44,37 @@ h1 {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1.5rem;
-    border: 0.1vw solid #9dbdb8;
+    border: 0.2vw solid #9dbdb8;
+}
+
+.contacto {
+    max-width: 700px;
+    margin: 4rem auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+@media (max-width: 770px) {
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+.nav ul {
+    display:flex;
+    align-items: center;
+}
+
+table th, table td {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+    text-align: center;
+    border: 0.2vw solid #9dbdb8;
 }
 
 .header, .footer {
