@@ -134,7 +134,7 @@ h3, p {
 /*--planes--*/
 
 table {
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
     margin-top: 1.5rem;
     border: 0.2vw solid #810100;
