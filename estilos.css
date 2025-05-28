@@ -3,7 +3,7 @@ body {
     color:#1b1717;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 h1, h2, h3 {
@@ -32,11 +32,12 @@ h1, h2, h3 {
 .nav ul {
     display: flex;
     list-style: none;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .nav a {
     text-decoration: none;
+    padding: 1rem;
     color: #630000;
     font-weight: 500;
     position: relative;
@@ -133,7 +134,7 @@ h3, p {
 /*--planes--*/
 
 table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
     margin-top: 1.5rem;
     border: 0.2vw solid #810100;
